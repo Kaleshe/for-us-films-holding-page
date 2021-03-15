@@ -16,3 +16,5 @@ gulp.task("sass", () => {
 gulp.task("watch", () => {
   gulp.watch("./sass/", gulp.series("sass"));
 });
+
+gulp.task("default", 'sass');

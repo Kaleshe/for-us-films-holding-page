@@ -1,0 +1,10 @@
+{
+    "name": "FU Films",
+    "url": "http://forusfilms.com",
+    "stylesheets": [
+        "./assets/css/style.css"
+    ],
+    "scripts": [
+        "./assets/js/script.js"
+    ]
+}

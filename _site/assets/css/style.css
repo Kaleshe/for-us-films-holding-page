@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+button,
+.button,
+input {
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+body {
+  font-family: 'Chivo', sans-serif;
+  color: #FFF; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif; }
+
+h1 {
+  font-size: 4rem; }
+
+a {
+  color: #FFF; }
+
+body {
+  background-color: #171818; }
+
+main {
+  padding: 2rem;
+  display: grid;
+  min-height: 100vh; }
+  main .text {
+    text-align: center; }
+
+/* kanit-900 - latin */
+@font-face {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/kanit-v7-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/kanit-v7-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/kanit-v7-latin-900.woff2") format("woff2"), url("../fonts/kanit-v7-latin-900.woff") format("woff"), url("../fonts/kanit-v7-latin-900.ttf") format("truetype"), url("../fonts/kanit-v7-latin-900.svg#Kanit") format("svg");
+  /* Legacy iOS */ }
+
+/* chivo-regular - latin */
+@font-face {
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/chivo-v12-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/chivo-v12-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/chivo-v12-latin-regular.woff2") format("woff2"), url("../fonts/chivo-v12-latin-regular.woff") format("woff"), url("../fonts/chivo-v12-latin-regular.ttf") format("truetype"), url("../fonts/chivo-v12-latin-regular.svg#Chivo") format("svg");
+  /* Legacy iOS */ }
+
+/* chivo-700 - latin */
+@font-face {
+  font-family: 'Chivo';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/chivo-v12-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/chivo-v12-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/chivo-v12-latin-700.woff2") format("woff2"), url("../fonts/chivo-v12-latin-700.woff") format("woff"), url("../fonts/chivo-v12-latin-700.ttf") format("truetype"), url("../fonts/chivo-v12-latin-700.svg#Chivo") format("svg");
+  /* Legacy iOS */ }
+
+.minimal {
+  background-color: #171818;
+  height: 100%; }

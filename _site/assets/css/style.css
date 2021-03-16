@@ -34,14 +34,16 @@ h3,
 h4,
 h5,
 h6 {
+  line-height: 1;
   text-transform: uppercase;
   font-family: 'Kanit', sans-serif; }
 
-h1 {
-  font-size: 4rem; }
-
 a {
   color: #FFF; }
+
+@media (min-width: 425px) {
+  h1 {
+    font-size: 4rem; } }
 
 body {
   background-color: #171818; }
@@ -52,6 +54,9 @@ main {
   min-height: 100vh; }
   main .text {
     text-align: center; }
+
+h1 {
+  margin-bottom: .5rem; }
 
 /* kanit-900 - latin */
 @font-face {

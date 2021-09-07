@@ -1,6 +1,5 @@
 body {
   font-family: 'Chivo', sans-serif;
-  color: $white;
 }
 
 h1,
@@ -15,14 +14,19 @@ h6 {
 }
 
 h1 {
+  margin: 2rem 0 1rem;
 }
 
 a {
-  color: $white;
+  color: inherit
 }
 
 @media (min-width: 425px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
+}
+
+p + p {
+  margin-top: .5rem;
 }

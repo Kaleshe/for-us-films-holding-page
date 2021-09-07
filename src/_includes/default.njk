@@ -9,11 +9,19 @@
             <meta name="description" content="{{ description }}">
         {% endif %}
 
-        <link rel="icon" type="image/png" href="./assets/images/favicon.ico">
+        <link rel="icon" type="image/png" href="./assets/images/for-us-films-logo.svg">
 
         {% for stylesheet in site.stylesheets %}
             <link rel="stylesheet" type="text/css" href="{{stylesheet}}">
         {% endfor %}
+
+        <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+
+        <style>
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
     </head>
 
     <body>

@@ -19,7 +19,7 @@ main {
     }
 
     p {
-      max-width: 600px;
+      max-width: 550px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -27,7 +27,6 @@ main {
 }
 
 .mailchimp {
-  margin-top: 3rem;
 
   input[type="submit"] {
     background: $black;
@@ -59,5 +58,13 @@ main {
     input[type="submit"] {
       max-width: 150px;
     }
+  }
+}
+
+.logo {
+  height: 100px;
+  @media (min-width: 768px) {
+    height: 120px !important;
+    margin-right: 1rem;
   }
 }

@@ -54,7 +54,7 @@ body {
   background-color: #FCDF03; }
 
 main {
-  padding: 2rem;
+  padding: 0 2rem 2rem;
   display: flex;
   min-height: 100vh;
   justify-content: center;
@@ -96,7 +96,8 @@ h1 {
   margin-bottom: 1rem; }
 
 .logo {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  margin-right: 1rem; }
 
 p {
   line-height: 1.4; }

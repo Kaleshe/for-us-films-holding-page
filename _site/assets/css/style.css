@@ -38,7 +38,6 @@ h6 {
   font-family: 'Kanit', sans-serif; }
 
 h1 {
-  margin: 0 0 2rem;
   font-size: 2.5rem; }
 
 a {
@@ -101,9 +100,6 @@ main {
       height: 120px !important;
       margin-right: 1rem; } }
 
-h1 {
-  margin-bottom: 1.5rem; }
-
 .logo {
   margin-bottom: 2rem; }
 
@@ -152,3 +148,27 @@ h3 {
 .minimal {
   background-color: #FCDF03;
   height: 100%; }
+
+#timer {
+  font-size: 3em;
+  font-weight: 100;
+  padding: 20px;
+  color: #FCDF03;
+  margin-left: auto;
+  margin-right: auto; }
+
+#timer div {
+  display: inline-block;
+  min-width: 90px;
+  padding: 15px;
+  background: #171818;
+  border-radius: 10px;
+  border: 2px solid #030d52;
+  margin: 15px;
+  font-weight: 800; }
+
+#timer div span {
+  color: #FCDF03;
+  display: block;
+  font-size: .25em;
+  font-weight: 400; }

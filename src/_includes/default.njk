@@ -27,6 +27,32 @@
         gtag('config', 'G-3G2YRN7MZN');
         </script>
 
+        <script>
+            function updateTimer() {
+            future = Date.parse("dec 01, 2021 00:00:00");
+            now = new Date();
+            diff = future - now;
+
+            days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            hours = Math.floor(diff / (1000 * 60 * 60));
+            mins = Math.floor(diff / (1000 * 60));
+            secs = Math.floor(diff / 1000);
+
+            d = days;
+            h = hours - days * 24;
+            m = mins - hours * 60;
+            s = secs - mins * 60;
+
+            document.getElementById("timer")
+            .innerHTML =
+            '<div>' + d + '<span>Days</span></div>' +
+            '<div>' + h + '<span>Hours</span></div>' +
+            '<div>' + m + '<span>Minutes</span></div>' +
+            '<div>' + s + '<span>Seconds</span></div>';
+            }
+            setInterval('updateTimer()', 1000);
+        </script>
+
         <style>
             #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
             /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
